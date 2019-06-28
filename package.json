@@ -1,0 +1,21 @@
+{
+ "private": false,
+ "name": "nice-handsome-button",
+ "version": "0.0.1",
+ "description": "A nice handsome button you will love",
+ "author": "Nada Rifki",
+ "license": "MIT",
+ "main": "./dist/index.cjs.js",
+ "scripts": {
+  "dev": "vue serve NiceHandsomeButton.vue",
+  "build": "bili --name index --plugin vue --vue.css false"
+ },
+ "files": [
+  "dist/*"
+ ],
+ "devDependencies": {
+  "bili": "^4.8.0",
+  "rollup-plugin-vue": "^5.0.1",
+  "vue-template-compiler": "^2.6.10"
+ }
+}
